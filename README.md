@@ -1,18 +1,79 @@
-# MedIntel
+# 💊 MedIntel — AI-Powered Drug Information Assistant
 
-## Overview
-This drug search application is rule-based and built to provide accurate and factual response on drug information. The APIs used were from:
+## 🧠 Overview
+**MedIntel** is a rule-based + AI-powered drug information app designed to provide **accurate, factual, FDA-backed drug information**.
 
-1. OpenFDA
-2. RXNorm
+Instead of showing users long drug label documents like Google searches, MedIntel:
+- detects the **user’s intent**
+- retrieves verified data from trusted drug APIs
+- generates a **clear educational summary** using an LLM (OpenAI)
 
-This app is different from Google searches because it detects the intent of the users' questions and generates responses accordingly whereas Google searches would throw the entire drug information to the user for them to look for the answer to their questions. Furthermore, AI summary and responses that are generated directly from drug APIs are much more reliable compared to AI summary on Google searches which could include hallucinated information. 
+✅ This reduces confusion, improves clarity, and helps avoid hallucinated responses.
 
-The tech stack includes:
+---
 
-1. Backend - Python
-2. Frontend - Streamlit and Render
-3. Database - PostgreSQL
+## 🚀 Key Features
+
+### 🔍 Drug Search (FDA Verified)
+- Search by **generic name** (e.g., *Metformin*)
+- Search by **brand name** (e.g., *Exforge*)
+- Retrieves official drug details using **OpenFDA + RxNorm**
+
+### 🎯 Intent Detection
+MedIntel detects the user’s intent and tailors the answer, for example:
+- dosage / usage
+- warnings
+- pregnancy safety
+- side effects
+- contraindications
+
+### 🧠 AI Educational Summary (OpenAI)
+Generates a short, user-friendly response that is:
+- easy to understand
+- grounded in drug label context
+- safer than general search AI outputs
+
+### 📊 Analytics Dashboard (Persistent)
+Every drug search is logged into a database, allowing:
+- total searches
+- unique drugs searched
+- top searched drugs
+- A/B testing tracking via response variants
+
+---
+
+## 🧱 Tech Stack
+
+| Layer | Technologies |
+|------|--------------|
+| **Frontend / UI** | Streamlit |
+| **Backend** | Python |
+| **Drug Data APIs** | OpenFDA, RxNorm |
+| **AI Layer** | OpenAI API |
+| **Database** | PostgreSQL |
+| **Deployment** | Render |
+
+---
+
+## 🗄️ Database Logging (Postgres)
+All searches are stored in the table:
+
+### `query_logs`
+- `drug_name`
+- `variant`
+- `created_at`
+
+This enables analytics to persist across deployments and refreshes.
+
+---
+
+## ⚙️ Setup (Run Locally)
+
+### 1️⃣ Clone repo
+```bash
+git clone https://github.com/<your-username>/MedIntel.git
+cd MedIntel
+
 
 
 
