@@ -3,6 +3,12 @@ from intent import detect_intent
 from drug_api import get_drug_label
 from ai_agent import generate_response
 from analytics import log_query, get_analytics
+from db import init_db
+from dotenv import load_dotenv
+import os
+
+
+load_dotenv()
 
 # Page config with custom theme
 st.set_page_config(
@@ -327,6 +333,8 @@ with st.sidebar:
         """,
         unsafe_allow_html=True
     )
+
+init_db()
 
 # ---------- HERO SECTION ----------
 st.markdown("""

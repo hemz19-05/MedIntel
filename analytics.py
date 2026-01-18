@@ -1,38 +1,57 @@
-import streamlit as st
-from datetime import datetime
-
-def _init():
-    if "logs" not in st.session_state:
-        st.session_state["logs"] = []
+from db import get_engine
+from sqlalchemy import text
 
 
-def log_query(drug_name: str, variant: str = None):
-    _init()
-    st.session_state["logs"].append({
-        "drug": drug_name.strip().lower(),
-        "variant": variant,
-        "timestamp": datetime.now()
-    })
+def log_query(drug_name, variant=None):
+    """
+    Log every drug search into Postgres (continuous analytics)
+    """
+    engine = get_engine()
+
+    insert_sql = """
+
+    INSERT INTO query_logs (drug_name, variant)
+    VALUES (:drug_name, :variant)
+    """
+    with engine.connect() as conn:
+        conn.execute(
+            text(insert_sql),
+            {'drug_name': drug_name.strip().lower(), 'variant': variant}
+        )
+        conn.commit()
 
 
-def get_analytics():
-    _init()
-    logs = st.session_state["logs"]
+def get_analytics(limit=20):
+    """
+    Returns:
+    -total_queries
+    -unique_drugs
+    -drug_list(top searched drugs)
+    """
+    
+    engine = get_engine()
 
-    drug_list = [x["drug"] for x in logs]
-    unique_drugs = sorted(list(set(drug_list)))
+    with engine.connect() as conn:
+        total_queries = conn.execute(text('SELECT COUNT(*) FROM query_logs;')).scalar() or 0
+        
+        unique_drugs = conn.execute(text('SELECT COUNT(DISTINCT drug_name) FROM query_logs;')).scalar() or 0
 
-    variant_counts = {}
-    for x in logs:
-        v = x.get("variant")
-        if v:
-            variant_counts[v] = variant_counts.get(v, 0) + 1
-
+        top_drugs = conn.execute(
+            text("""
+                SELECT drug_name, COUNT(*) as counts
+                FROM query_logs
+                GROUP BY drug_name
+                ORDER BY counts DESC
+                LIMIT :limit;
+            """),
+            {'limit': limit}
+        ).fetchall()
+        
+    drug_list = [f'{row[0]} ({row[1]})' for row in top_drugs]
 
     return {
-        "total_queries": len(logs),
-        "unique_drugs": len(unique_drugs),
-        "drug_list": unique_drugs,
-        "variant_counts": variant_counts
+        'total_queries': total_queries,
+        'unique_drugs': unique_drugs,
+        'drug_list': drug_list,
     }
 
