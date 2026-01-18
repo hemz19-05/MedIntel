@@ -1,6 +1,6 @@
-# 💊 MedIntel — AI-Powered Drug Information Assistant
+# MedIntel — AI-Powered Drug Information Assistant
 
-## 🧠 Overview
+## Overview
 **MedIntel** is a rule-based + AI-powered drug information app designed to provide **accurate, factual, FDA-backed drug information**.
 
 Instead of showing users long drug label documents like Google searches, MedIntel:
@@ -12,7 +12,7 @@ Instead of showing users long drug label documents like Google searches, MedInte
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 ### 🔍 Drug Search (FDA Verified)
 - Search by **generic name** (e.g., *Metformin*)
@@ -42,7 +42,7 @@ Every drug search is logged into a database, allowing:
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 
 | Layer | Technologies |
 |------|--------------|
@@ -55,7 +55,7 @@ Every drug search is logged into a database, allowing:
 
 ---
 
-## 🗄️ Database Logging (Postgres)
+## Database Logging (Postgres)
 All searches are stored in the table:
 
 ### `query_logs`
@@ -67,12 +67,13 @@ This enables analytics to persist across deployments and refreshes.
 
 ---
 
-## ⚙️ Setup (Run Locally)
+## Setup (Run Locally)
 
 ### 1️⃣ Clone repo
 ```bash
 git clone https://github.com/<your-username>/MedIntel.git
 cd MedIntel
+
 
 
 
