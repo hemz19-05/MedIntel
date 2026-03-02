@@ -1,0 +1,351 @@
+[
+  {
+    "id": 1,
+    "drug": "Acetaminophen",
+    "question": "What are the indications for Acetaminophen?",
+    "ground_truth": "Temporarily relieves minor aches and pains due to: headache, the common cold, backache, minor pain of arthritis, toothache, muscular aches, premenstrual and menstrual cramps. Temporarily reduces fever."
+  },
+
+  {
+    "id": 2,
+    "drug": "Acetaminophen",
+    "question": "What is the maximum dose recommended for Acetaminophen gelcaps?",
+    "ground_truth": "Do not take more than 6 gelcaps in 24 hours, unless directed by a doctor. Do not take for more than 10 days unless directed by a doctor."
+  },
+
+  {
+    "id": 3,
+    "drug": "Acetaminophen",
+    "question": "What is the active ingredient of Acetaminophen?",
+    "ground_truth": "Acetaminophen 500mg."
+  },
+
+  {
+    "id": 4,
+    "drug": "Acetaminophen",
+    "question": "Are there any directions of Acetaminophen for children below 12 years old?",
+    "ground_truth": "Children under 12 years: ask a doctor."
+  },
+
+  {
+    "id": 5,
+    "drug": "Acetaminophen",
+    "question": "Are there any special warnings for Acetaminophen, for example, on allergy?",
+    "ground_truth": "Allergy alert: Acetaminophen may cause severe skin reactions. Symptoms may include: skin reddening, blisters, rash. If a skin reaction occurs, stop use and seek medical help right away. Do not use if you are allergic to acetaminophen or any of the inactive ingredients in this product with any other drug containing acetaminophen (prescription or nonprescription)."
+  },
+
+  {
+    "id": 6,
+    "drug": "Aspirin",
+    "question": "What is the active ingredient of Aspirin low dose formulation?",
+    "ground_truth": "Aspirin 81mg."
+  },
+
+  {
+    "id": 7,
+    "drug": "Aspirin",
+    "question": "What are the indications of Aspirin?",
+    "ground_truth": "For the temporary relief of minor aches and pains or as recommended by your doctor."
+  },
+
+  {
+    "id": 8,
+    "drug": "Aspirin",
+    "question": "What is the recommended dosage of Aspirin for adults and children?",
+    "ground_truth": "Adults and children 12 years and over: take 4 to 8 tablets every 4 hours."
+  },
+
+  {
+    "id": 9,
+    "drug": "Aspirin",
+    "question": "Is there a maximum dose for Aspirin?",
+    "ground_truth": "Not to exceed 48 tablets in 24 hours unless directed by a doctor."
+  },
+
+  {
+    "id": 10,
+    "drug": "Aspirin",
+    "question": "Are there any warnings for pregnancy or breastfeeding?",
+    "ground_truth": "If pregnant or breast-feeding, ask a health professional before use. It is especially important not to use aspirin during the last 3 months of pregnancy unless definitely directed to do so by a doctor because it may cause problems in the unborn child or complications during delivery."
+  },
+
+  {
+    "id": 11,
+    "drug": "Cetirizine",
+    "question": "What are the uses of Cetirizine?",
+    "ground_truth": "Temporarily relieves these symptoms due to hay fever or other upper respiratory allergies: runny nose, sneezing, itchy, watery eyes, itching of the nose or throat"
+  },
+
+  {
+    "id": 12,
+    "drug": "Cetirizine",
+    "question": "What is the dosage of Cetirizine for children 2 to 6 years of age?",
+    "ground_truth": "Children 2 to under 6 years of age - Chew and swallow 1 tablet (2.5 mg) once daily; If needed, dose can be increased to a maximum of 2 tablets (5 mg) once daily or 1 tablet (2.5 mg) every 12 hours. Do not give more than 2 tablets (5 mg) in 24 hours."
+  },
+
+  {
+    "id": 13,
+    "drug": "Cetirizine",
+    "question": "What is the directions of use for Cetirizine HCl 2.5mg chewable tablets?",
+    "ground_truth": "May be taken with or without water. Chew or crush tablets completely before swallowing."
+  },
+
+  {
+    "id": 14,
+    "drug": "Cetirizine",
+    "question": "What is the dosage of Cetirizine for children below 2 years old?",
+    "ground_truth": "Children under 2 years of age - ask a doctor."
+  },
+
+  {
+    "id": 15,
+    "drug": "Cetirizine",
+    "question": "Can Cetirizine be taken with alcohol, sedatives or tranquilizers?",
+    "ground_truth": "Ask a doctor or pharmacist before use if you are taking tranquilizers or sedatives. When using this product drowsiness may occur avoid alcoholic drinks alcohol, sedatives, and tranquilizers may increase drowsiness. Be careful when driving a motor vehicle or operating machinery."
+  },
+
+  {
+    "id": 16,
+    "drug": "Chlorpheniramine",
+    "question": "What is the strength of chlorpheniramine?",
+    "ground_truth": "Chlorpheniramine maleate 4mg"
+  },
+
+  {
+    "id": 17,
+    "drug": "Chlorpheniramine",
+    "question": "What is the recommended dosage for adults for Chlorpheniramine?",
+    "ground_truth": "Adults and children 12 years of age and over: take 1 tablet every 4 to 6 hours, not to exceed 6 tablets (24 mg) in 24 hours, or as directed by a doctor."
+  },
+
+  {
+    "id": 18,
+    "drug": "Chlorpheniramine",
+    "question": "What is the maximum dose for Chlorpheniramine?",
+    "ground_truth": "Not to exceed 6 tablets (24 mg) in 24 hours, or as directed by a doctor."
+  },
+
+  {
+    "id": 19,
+    "drug": "Chlorpheniramine",
+    "question": "Are there any warnings or precautions for Chlorpheniramine?",
+    "ground_truth": "Ask a doctor before use if you have a breathing problem such as emphysema or chronic bronchitis, glaucoma, difficulty in urination due to enlargement of the prostate gland."
+  },
+
+  {
+    "id": 20,
+    "drug": "Chlorpheniramine",
+    "question": "Can pregnant or breastfeeding ladies take Chlorpheniramine?",
+    "ground_truth": "If pregnant or breast-feeding, ask a health professional before use."
+  },
+
+  {
+    "id": 21,
+    "drug": "Diclofenac",
+    "question": "What class of drug is Diclofenac?",
+    "ground_truth": "It is a nonsteroidal anti-inflammatory drug (NSAID)."
+  },
+
+  {
+    "id": 22,
+    "drug": "Diclofenac",
+    "question": "What are the uses of Diclofenac 1% topical gel?",
+    "ground_truth": "For the temporary relief of arthritis pain ONLY in the following areas: hand, wrist, elbow (upper body areas) foot, ankle, knee (lower body areas). This product may take up to 7 days to work for arthritis pain; it is not for immediate relief. If no pain relief in 7 days, stop use."
+  },
+
+  {
+    "id": 23,
+    "drug": "Diclofenac",
+    "question": "What is the maximum recommended dosage for Diclofenac 1% topical gel?",
+    "ground_truth": "Use up to 21 days unless directed by your doctor."
+  },
+
+  {
+    "id": 24,
+    "drug": "Diclofenac",
+    "question": "Can Diclofenac 1% topical gel be applied for bruises and sports injuries?",
+    "ground_truth": "Not for strains, sprains, bruises or sports injuries. This product has not been shown to work for these types of injuries."
+  },
+
+  {
+    "id": 25,
+    "drug": "Diclofenac",
+    "question": "What are the directions to use for Diclofenac 1% topical gel?",
+    "ground_truth": "Directions: Use up to 21 days unless directed by your doctor. Not for strains, sprains, bruises or sports injuries. This product has not been shown to work for these types of injuries. Daily Per Dose: For your arthritis pain: Use 4 times per day every day. Do not use on more than 2 body areas at the same time. Use ENCLOSED DOSING CARD to measure a dose. For each upper body area (hand, wrist, or elbow) – Squeeze out 2.25 inches (2 grams). For each lower body area (foot, ankle or knee) –Squeeze out 4.5 inches (4 grams). Read the enclosed User Guide for complete instructions: use only as directed do not use more than directed or for longer than directed. Apply only to clean, dry skin that does not have any cuts, open wounds, infections or rashes. Do not apply in same area as any other product. Do not apply with external heat such as heating pad. Do not apply a bandage over the treated area. Store ENCLOSED DOSING CARD with your Diclofenac Sodium Topical Gel, 1% product. The dosing card is re-usable."
+  },
+
+  {
+    "id": 26,
+    "drug": "Gabapentin",
+    "question": "What are the indications of Gabapentin?",
+    "ground_truth": "Management of postherpetic neuralgia in adults. Adjunctive therapy in the treatment of partial onset seizures, with and without secondary generalization, in adults and pediatric patients 3 years and older with epilepsy."
+  },
+
+  {
+    "id": 27,
+    "drug": "Gabapentin",
+    "question": "What is the Gabapetin dosage recommendation for patients with epilepsy with partial onset seizures?",
+    "ground_truth": "Dosage for Epilepsy with Partial Onset Seizures: Patients 12 years of age and above. The starting dose is 300 mg three times a day. The recommended maintenance dose of Gabapentin is 300 mg to 600 mg three times a day. Dosages up to 2400 mg/day have been well tolerated in long-term clinical studies. Doses of 3600 mg/day have also been administered to a small number of patients for a relatively short duration, and have been well tolerated. Administer Gabapentin three times a day using 300 mg or 400 mg capsules. The maximum time between doses should not exceed 12 hours. Pediatric Patients Age 3 to 11 years The starting dose range is 10 mg/kg/day to 15 mg/kg/day, given in three divided doses, and the recommended maintenance dose reached by upward titration over a period of approximately 3 days. The recommended maintenance dose of Gabapentin in patients 3 to 4 years of age is 40 mg/kg/day, given in three divided doses. The recommended maintenance dose of Gabapentin in patients 5 to 11 years of age is 25 mg/kg/day to 35 mg/kg/day, given in three divided doses. Gabapentin may be administered as the capsule formulations. Dosages up to 50 mg/kg/day have been well tolerated in a long-term clinical study. The maximum time interval between doses should not exceed 12 hours."
+  },
+
+  {
+    "id": 28,
+    "drug": "Gabapentin",
+    "question": "Does Gabapentin interact with other drugs?",
+    "ground_truth": "Opioids Respiratory depression and sedation, sometimes resulting in death, have been reported following coadministration of gabapentin with opioids (e.g., morphine, hydrocodone, oxycodone, buprenorphine). Hydrocodone Coadministration of gabapentin with hydrocodone decreases hydrocodone exposure. The potential for alteration in hydrocodone exposure and effect should be considered when gabapentin is started or discontinued in a patient taking hydrocodone. Morphine: When gabapentin is administered with morphine, patients should be observed for signs of CNS depression, such as somnolence, sedation and respiratory depression. Other Antiepileptic Drugs: Gabapentin is not appreciably metabolized nor does it interfere with the metabolism of commonly coadministered antiepileptic drugs. Maalox ® (aluminum hydroxide, magnesium hydroxide): The mean bioavailability of gabapentin was reduced by about 20% with concomitant use of an antacid (Maalox ® ) containing magnesium and aluminum hydroxides. It is recommended that gabapentin be taken at least 2 hours following Maalox administration.     Probenecid: Probenecid is a blocker of renal tubular secretion. Gabapentin pharmacokinetic parameters without and with probenecid were comparable. This indicates that gabapentin does not undergo renal tubular secretion by the pathway that is blocked by probenecid."
+  },
+
+  {
+    "id": 29,
+    "drug": "Gabapentin",
+    "question": "Are there any indications of Gabapentin for pediatric patients?",
+    "ground_truth": "Safety and effectiveness of Gabapentin in the management of postherpetic neuralgia in pediatric patients have not been established. Safety and effectiveness as adjunctive therapy in the treatment of partial seizures in pediatric patients below the age of 3 years has not been established."
+  },
+
+  {
+    "id": 30,
+    "drug": "Gabapentin",
+    "question": "What are the contraindications of Gabapentin?",
+    "ground_truth": "Gabapentin is contraindicated in patients who have demonstrated hypersensitivity to the drug or its ingredients. Known hypersensitivity to gabapentin or its ingredients."
+  },
+
+  {
+    "id": 31,
+    "drug": "Hydrocortisone",
+    "question": "What are the uses of Hydrocortisone 1%?",
+    "ground_truth": "Temporarily relieves itching associated with minor skin irritations, inflammation, and rashes due to: eczema, psoriasis, poison ivy, oak, sumac, insect bites, detergents, jewelry, cosmetics, soaps. Seborrheic dermatitis. Temporarily relieves external anal and genital itching. Other uses of this product should only be under the advice and supervision of a doctor."
+  },
+
+  {
+    "id": 32,
+    "drug": "Hydrocortisone",
+    "question": "How is Hydroocortisone 1% used for external anal and genital itching?",
+    "ground_truth": "For external anal and genital itching in adults: When practical, clean the affected area with mild soap and warm water and rinse thoroughly. Gently dry by patting or blotting with toilet tissue or a soft cloth before applying. Apply to affected area not more than 3 to 4 times daily."
+  },
+
+  {
+    "id": 33,
+    "drug": "Hydrocortisone",
+    "question": "Are there any warnings for Hydrocortisone 1%?",
+    "ground_truth": "For external use only. Do not use in the genital area if you have a vaginal discharge. Consult a doctor for the treatment of diaper rash. Consult a doctor when using this product. Avoid contact with the eyes. Do not use more than directed unless told to do so by a doctor. Do not put directly into the rectum by using fingers or any mechanical device or applicator. Stop use and ask a doctor if condition worsens symptoms persist for more than 7 days or clear up and occur again within a few days, and do not begin use of any other hydrocortisone product unless you have asked a doctor, rectal bleeding occurs. Keep out of reach of children. If swallowed, get medical help or contact a Poison Control Center right away (1-800-222-1222)."
+  },
+
+  {
+    "id": 34,
+    "drug": "Hydrocortisone",
+    "question": "Can children below 2 years old use Hydrocortisone 1% for itching of skin irritation, inflammation and rashes?",
+    "ground_truth": "Children under 2 years of age: do not use, ask a doctor."
+  },
+
+  {
+    "id": 35,
+    "drug": "Hydrocortisone",
+    "question": "Can Hydrocortisone 1% be taken orally?",
+    "ground_truth": "No. For external use only."
+  },
+
+  {
+    "id": 36,
+    "drug": "Ibuprofen",
+    "question": "What are the uses of Ibuprofen?",
+    "ground_truth": "Temporarily relieves minor aches and pains due to: headache, toothache, backache, menstrual cramps, the common cold, muscular aches, minor pain of arthritis. Temporarily reduces fever."
+  },
+
+  {
+    "id": 37,
+    "drug": "Ibuprofen",
+    "question": "Is Ibuprofen a painkiller?",
+    "ground_truth": "Yes, it is a nonsteroidal anti-inflammatory drug (NSAID)."
+  },
+
+  {
+    "id": 38,
+    "drug": "Ibuprofen",
+    "question": "Can Ibuprofen be taken by pregnant women?",
+    "ground_truth": "If pregnant or breast-feeding, ask a health professional before use. It is especially important not to use ibuprofen at 20 weeks or later in pregnancy unless definitely directed to do so by a doctor because it may cause problems in the unborn child or complications during delivery."
+  },
+
+  {
+    "id": 39,
+    "drug": "Ibuprofen",
+    "question": "What is the Ibuprofen advised dosage for adults?",
+    "ground_truth": "Adults and children 12 years and over: take 1 tablet every 4 to 6 hours while symptoms persist. If pain or fever does not respond to 1 tablet, 2 tablets may be used."
+  },
+
+  {
+    "id": 40,
+    "drug": "Ibuprofen",
+    "question": "What are some of the cautions or warnings for Ibuprofen?",
+    "ground_truth": "Allergy alert: Ibuprofen may cause a severe allergic reaction, especially in people allergic to aspirin. Symptoms may include: rash, facial swelling, asthma (wheezing), hives, skin reddening, shock, blisters. If an allergic reaction occurs, stop use and seek medical help right away. Stomach bleeding warning: This product contains an NSAID, which may cause severe stomach bleeding. The chance is higher if you: take more or for a longer time than directed, take a blood thinning (anticoagulant) or steroid drug, have had stomach ulcers or bleeding problems, have 3 or more alcoholic drinks every day while using this product, are age 60 or older, take other drugs containing prescription or nonprescription NSAIDs [aspirin, ibuprofen, naproxen, or others]. Heart attack and stroke warning: NSAIDs, except aspirin, increase the risk of heart attack, heart failure, and stroke. These can be fatal. The risk is higher if you use more than directed or for longer than directed. Do not use if you have ever had an allergic reaction to any other pain reliever/fever reducer right before or after heart surgery. Ask a doctor before use if stomach bleeding warning applies to you, you have a history of stomach problems, such as heartburn you have high blood pressure, heart disease, liver cirrhosis, kidney disease, asthma, or had a stroke, you are taking a diuretic, you have problems or serious side effects from taking pain relievers or fever reducers. Ask a doctor or pharmacist before use if you are under a doctor's care for any serious condition taking aspirin for heart attack or stroke, because ibuprofen may decrease this benefit of aspirin taking any other drug. When using this product take with food or milk. if stomach upset occurs, stop use and ask a doctor. If you experience any of the following signs of stomach bleeding: feel faint have bloody or black stools, vomit blood, have stomach pain that does not get better, you have symptoms of heart problems or stroke: chest pain, slurred speech, leg swelling, trouble breathing, weakness in one part or side of body, pain gets worse or lasts more than 10 days, fever gets worse or lasts more than 3 days redness or swelling is present in the painful area, any new symptoms appear."
+  },
+
+  {
+    "id": 41,
+    "drug": "Omeprazole",
+    "question": "What are the indications of Omeprazole?",
+    "ground_truth": "Treats frequent heartburn (occurs 2 or more days a week). Not intended for immediate relief of heartburn. This drug may take 1 to 4 days for full effect."
+  },
+
+  {
+    "id": 42,
+    "drug": "Omeprazole",
+    "question": "Can Omeprazole cause allergic reactions on skin?",
+    "ground_truth": "Omeprazole may cause severe skin reactions. Symptoms may include: skin reddening, blisters, rash. If an allergic reaction occurs, stop use and seek medical help right away."
+  },
+
+  {
+    "id": 43,
+    "drug": "Omeprazole",
+    "question": "What are the dosing directions for prescribing Omeprazole?",
+    "ground_truth": "Adults 18 years of age and older, this product is to be used once a day (every 24 hours), every day for 14 days. it may take 1 to 4 days for full effect. Some people get complete relief of symptoms within 24 hours. For 14-Day Course of Treatment: swallow 1 tablet with a glass of water before eating in the morning. take every day for 14 days. Do not take more than 1 tablet a day. Do not use for more than 14 days unless directed by your doctor swallow whole. Do not chew or crush tablets. For Repeated 14-Day Courses (if needed): you may repeat a 14-day course every 4 months. Do not take for more than 14 days or more often than every 4 months unless directed by a doctor. Children under 18 years of age: ask a doctor. Heartburn in children may sometimes be caused by a serious condition."
+  },
+
+  {
+    "id": 44,
+    "drug": "Omeprazole",
+    "question": "What is the active ingredient of Omeprazole?",
+    "ground_truth": "Omeprazole 20mg."
+  },
+
+  {
+    "id": 45,
+    "drug": "Omeprazole",
+    "question": "Can lactating women take Omeprazole?",
+    "ground_truth": "If pregnant or breast-feeding, ask a health professional before use."
+  },
+
+  {
+    "id": 46,
+    "drug": "Rosuvastatin",
+    "question": "What is Rosuvastatin prescribed for?",
+    "ground_truth": "To reduce the risk major adverse cardiovascular (CV) events (CV death, nonfatal myocardial infarction, nonfatal stroke, or an arterial revascularization procedure) in adults without established coronary heart disease who are at increased risk of CV disease based on age, high-sensitivity C-reactive protein (hs. CRP) ≥2 mg/L, and at least one additional CV risk factor. As an adjunct to diet to: Reduce low-density lipoprotein cholesterol (LDL-C) in adults with primary hyperlipidemia. Reduce LDL-C and slow the progression of atherosclerosis in adults. Reduce LDL-C in adults and pediatric patients aged 8 years and older with heterozygous familial hypercholesterolemia (He. FH). As an adjunct to other LDL-C-lowering therapies, or alone if such treatments are unavailable, to reduce LDL-C in adults and pediatric patients aged 7 years and older with homozygous familial hypercholesterolemia (Ho. FH). As an adjunct to diet for the treatment of adults with: Primary dysbetalipoproteinemia. Hypertriglyceridemia."
+  },
+
+  {
+    "id": 47,
+    "drug": "Rosuvastatin",
+    "question": "Which class of drugs does Rosuvastatin belongs to?",
+    "ground_truth": "Rosuvastatin is a 3-hydroxy-3-methylglutaryl coenzyme A (HMG Co. A)-reductase inhibitor (statins)."
+  },
+
+  {
+    "id": 48,
+    "drug": "Rosuvastatin",
+    "question": "What are some contraindications of Rosuvastatin?",
+    "ground_truth": "Rosuvastatin tablets is contraindicated in the following conditions: Acute liver failure or decompensated cirrhosis. Hypersensitivity to rosuvastatin or any excipients in rosuvastatin tablets. Hypersensitivity reactions including rash, pruritus, urticaria, and angioedema have been reported with rosuvastatin. Acute liver failure or decompensated cirrhosis."
+  },
+
+  {
+    "id": 49,
+    "drug": "Rosuvastatin",
+    "question": "What is the prescribing recommendation of Rosuvastatin for patients with severe renal impairment?",
+    "ground_truth": "Patients with Severe Renal Impairment (not on hemodialysis) : Initiate at 5 mg once daily; do not exceed 10 mg once daily."
+  },
+
+  {
+    "id": 50,
+    "drug": "Rosuvastatin",
+    "question": "Can patients on Warfarin be given Rosuvastatin?",
+    "ground_truth": "Warfarin Clinical Impact: Rosuvastatin significantly increased the INR (anticoagulant effect) in patients receiving Warfarin. Intervention: In patients taking Warfarin, obtain an INR before starting Rosuvastatin and frequently enough after initiation, dose titration or discontinuation to ensure that no significant alteration in INR occurs. Once the INR is stable, monitor INR at regularly recommended intervals."
+  }
+]

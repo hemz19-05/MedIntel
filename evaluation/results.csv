@@ -1,0 +1,51 @@
+question,F1_A,F1_B
+What are the indications for Acetaminophen?,0.7639659643173218,0.7384544014930725
+What is the maximum dose recommended for Acetaminophen gelcaps?,0.7802453637123108,0.7113584280014038
+What is the active ingredient of Acetaminophen?,0.7198616862297058,0.6799671649932861
+Are there any directions of Acetaminophen for children below 12 years old?,0.745481550693512,0.6497534513473511
+"Are there any special warnings for Acetaminophen, for example, on allergy?",0.8267363905906677,0.790221095085144
+What is the active ingredient of Aspirin low dose formulation?,0.7376596331596375,0.6568891406059265
+What are the indications of Aspirin?,0.7755341529846191,0.664750874042511
+What is the recommended dosage of Aspirin for adults and children?,0.7793869972229004,0.6607565879821777
+Is there a maximum dose for Aspirin?,0.7578371167182922,0.6039051413536072
+Are there any warnings for pregnancy or breastfeeding?,0.8493291139602661,0.6782388687133789
+What are the uses of Cetirizine?,0.7985926270484924,0.7139529585838318
+What is the dosage of Cetirizine for children 2 to 6 years of age?,0.7992460131645203,0.7248342037200928
+What is the directions of use for Cetirizine HCl 2.5mg chewable tablets?,0.6649153828620911,0.6529432535171509
+What is the dosage of Cetirizine for children below 2 years old?,0.7629850506782532,0.6635828018188477
+"Can Cetirizine be taken with alcohol, sedatives or tranquilizers?",0.8272176384925842,0.7494812607765198
+What is the strength of chlorpheniramine?,0.7668882012367249,0.6999956965446472
+What is the recommended dosage for adults for Chlorpheniramine?,0.7432888150215149,0.6855451464653015
+What is the maximum dose for Chlorpheniramine?,0.7565615177154541,0.673837423324585
+Are there any warnings or precautions for Chlorpheniramine?,0.7131484150886536,0.6842728853225708
+Can pregnant or breastfeeding ladies take Chlorpheniramine?,0.7442876100540161,0.6795915365219116
+What class of drug is Diclofenac?,0.7486737370491028,0.7094249129295349
+What are the uses of Diclofenac 1% topical gel?,0.795159101486206,0.7564772963523865
+What is the maximum recommended dosage for Diclofenac 1% topical gel?,0.7019515633583069,0.6483182311058044
+Can Diclofenac 1% topical gel be applied for bruises and sports injuries?,0.7930946946144104,0.7396028637886047
+What are the directions to use for Diclofenac 1% topical gel?,0.7830237746238708,0.7902560234069824
+What are the indications of Gabapentin?,0.7730487585067749,0.7497771382331848
+What is the Gabapetin dosage recommendation for patients with epilepsy with partial onset seizures?,0.8133808970451355,0.8182050585746765
+Does Gabapentin interact with other drugs?,0.7964670658111572,0.7811885476112366
+Are there any indications of Gabapentin for pediatric patients?,0.7343431711196899,0.748304009437561
+What are the contraindications of Gabapentin?,0.7812995314598083,0.7560436725616455
+What are the uses of Hydrocortisone 1%?,0.809822142124176,0.7833667397499084
+How is Hydroocortisone 1% used for external anal and genital itching?,0.7665801644325256,0.7551288604736328
+Are there any warnings for Hydrocortisone 1%?,0.8223104476928711,0.7600186467170715
+"Can children below 2 years old use Hydrocortisone 1% for itching of skin irritation, inflammation and rashes?",0.7512248754501343,0.684979259967804
+Can Hydrocortisone 1% be taken orally?,0.7133706212043762,0.6227079629898071
+What are the uses of Ibuprofen?,0.7821640968322754,0.7352453470230103
+Is Ibuprofen a painkiller?,0.7561063766479492,0.7139972448348999
+Can Ibuprofen be taken by pregnant women?,0.8279042840003967,0.7251229286193848
+What is the Ibuprofen advised dosage for adults?,0.7731988430023193,0.7398864030838013
+What are some of the cautions or warnings for Ibuprofen?,0.7949936985969543,0.792204737663269
+What are the indications of Omeprazole?,0.8172540068626404,0.7427976727485657
+Can Omeprazole cause allergic reactions on skin?,0.8264114856719971,0.7522271275520325
+What are the dosing directions for prescribing Omeprazole?,0.7989376187324524,0.7561230063438416
+What is the active ingredient of Omeprazole?,0.7353368997573853,0.6331883072853088
+Can lactating women take Omeprazole?,0.7355330586433411,0.6568312048912048
+What is Rosuvastatin prescribed for?,0.8212293386459351,0.8215492963790894
+Which class of drugs does Rosuvastatin belongs to?,0.7301255464553833,0.68367999792099
+What are some contraindications of Rosuvastatin?,0.8128160238265991,0.7839853763580322
+What is the prescribing recommendation of Rosuvastatin for patients with severe renal impairment?,0.8140566945075989,0.7096908688545227
+Can patients on Warfarin be given Rosuvastatin?,0.7891008257865906,0.768093466758728

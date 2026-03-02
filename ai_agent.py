@@ -10,8 +10,8 @@ load_dotenv()
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-def generate_response(user_input, context):
-    variant = assign_variant()
+def generate_response(user_input, context, forced_variant=None):
+    variant = forced_variant if forced_variant else assign_variant() 
 
     if variant == "A":
         style_instruction = (
