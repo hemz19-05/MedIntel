@@ -12,9 +12,9 @@ Instead of showing users long drug label documents like Google searches, MedInte
 
 The results:
 
-Variant A - short bullet points responses achieved higher BERTScore (semantic similarity) - 0.7742
-Variant B - detailed explanatory responses achieved slightly lower BERTScore (semantic similarity) - 0.7176
-Variant A achieved 7% higher BERTScore F1 due to closer lexical and semantic alignment with OpenFDA reference text.
+- Variant A - short bullet points responses achieved higher BERTScore (semantic similarity) - 0.7742
+- Variant B - detailed explanatory responses achieved slightly lower BERTScore (semantic similarity) - 0.7176
+- Variant A achieved 7% higher BERTScore F1 due to closer lexical and semantic alignment with OpenFDA reference text.
 
 ---
 
@@ -79,6 +79,7 @@ This enables analytics to persist across deployments and refreshes.
 ```bash
 git clone https://github.com/<your-username>/MedIntel.git
 cd MedIntel
+
 
 
 
